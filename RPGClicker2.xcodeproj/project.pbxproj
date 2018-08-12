@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		3715343F2120BB68006ECB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715343E2120BB68006ECB03 /* AppDelegate.swift */; };
 		371534412120BB68006ECB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371534402120BB68006ECB03 /* ViewController.swift */; };
-		371534442120BB68006ECB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371534422120BB68006ECB03 /* Main.storyboard */; };
 		371534472120BB68006ECB03 /* RPGClicker2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 371534452120BB68006ECB03 /* RPGClicker2.xcdatamodeld */; };
 		371534492120BB6A006ECB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371534482120BB6A006ECB03 /* Assets.xcassets */; };
 		3715344C2120BB6A006ECB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3715344A2120BB6A006ECB03 /* LaunchScreen.storyboard */; };
+		371534542120BC24006ECB03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 371534532120BC24006ECB03 /* GoogleService-Info.plist */; };
+		373212582120C0F500A2D2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373212562120C0F500A2D2A1 /* Main.storyboard */; };
+		3732125B2120C41A00A2D2A1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732125A2120C41900A2D2A1 /* LoginViewController.swift */; };
+		3732125D2120C43200A2D2A1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732125C2120C43200A2D2A1 /* RegisterViewController.swift */; };
+		D417B13D31B6C81CC6956997 /* Pods_RPGClicker2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0775E7F8EFF577A514DB9D7C /* Pods_RPGClicker2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043B29BF659CF4CE917222D0 /* Pods-RPGClicker2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPGClicker2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RPGClicker2/Pods-RPGClicker2.debug.xcconfig"; sourceTree = "<group>"; };
+		0775E7F8EFF577A514DB9D7C /* Pods_RPGClicker2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPGClicker2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715343B2120BB68006ECB03 /* RPGClicker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGClicker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715343E2120BB68006ECB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		371534402120BB68006ECB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		371534432120BB68006ECB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		371534462120BB68006ECB03 /* RPGClicker2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RPGClicker2.xcdatamodel; sourceTree = "<group>"; };
 		371534482120BB6A006ECB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3715344B2120BB6A006ECB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3715344D2120BB6A006ECB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371534532120BC24006ECB03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		373212572120C0F500A2D2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../RPGClicker/RPGClicker/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3732125A2120C41900A2D2A1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3732125C2120C43200A2D2A1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		55DEEC8CBD8521BD71DBB60B /* Pods-RPGClicker2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPGClicker2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RPGClicker2/Pods-RPGClicker2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D417B13D31B6C81CC6956997 /* Pods_RPGClicker2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D59285FEBC805B4B4EA9218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				043B29BF659CF4CE917222D0 /* Pods-RPGClicker2.debug.xcconfig */,
+				55DEEC8CBD8521BD71DBB60B /* Pods-RPGClicker2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C85865870EC6CDED78318FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0775E7F8EFF577A514DB9D7C /* Pods_RPGClicker2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		371534322120BB68006ECB03 = {
 			isa = PBXGroup;
 			children = (
 				3715343D2120BB68006ECB03 /* RPGClicker2 */,
 				3715343C2120BB68006ECB03 /* Products */,
+				0D59285FEBC805B4B4EA9218 /* Pods */,
+				1C85865870EC6CDED78318FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,26 @@
 		3715343D2120BB68006ECB03 /* RPGClicker2 */ = {
 			isa = PBXGroup;
 			children = (
+				373212592120C3E800A2D2A1 /* Controllers */,
+				371534532120BC24006ECB03 /* GoogleService-Info.plist */,
 				3715343E2120BB68006ECB03 /* AppDelegate.swift */,
 				371534402120BB68006ECB03 /* ViewController.swift */,
-				371534422120BB68006ECB03 /* Main.storyboard */,
 				371534482120BB6A006ECB03 /* Assets.xcassets */,
+				373212562120C0F500A2D2A1 /* Main.storyboard */,
 				3715344A2120BB6A006ECB03 /* LaunchScreen.storyboard */,
 				3715344D2120BB6A006ECB03 /* Info.plist */,
 				371534452120BB68006ECB03 /* RPGClicker2.xcdatamodeld */,
 			);
 			path = RPGClicker2;
+			sourceTree = "<group>";
+		};
+		373212592120C3E800A2D2A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3732125A2120C41900A2D2A1 /* LoginViewController.swift */,
+				3732125C2120C43200A2D2A1 /* RegisterViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 371534502120BB6A006ECB03 /* Build configuration list for PBXNativeTarget "RPGClicker2" */;
 			buildPhases = (
+				74A679F156E18361B2B3F628 /* [CP] Check Pods Manifest.lock */,
 				371534372120BB68006ECB03 /* Sources */,
 				371534382120BB68006ECB03 /* Frameworks */,
 				371534392120BB68006ECB03 /* Resources */,
+				2F42C8D29F744A816A8F07EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +169,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				3715344C2120BB6A006ECB03 /* LaunchScreen.storyboard in Resources */,
+				371534542120BC24006ECB03 /* GoogleService-Info.plist in Resources */,
 				371534492120BB6A006ECB03 /* Assets.xcassets in Resources */,
-				371534442120BB68006ECB03 /* Main.storyboard in Resources */,
+				373212582120C0F500A2D2A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F42C8D29F744A816A8F07EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RPGClicker2/Pods-RPGClicker2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RPGClicker2/Pods-RPGClicker2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A679F156E18361B2B3F628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RPGClicker2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		371534372120BB68006ECB03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3732125B2120C41A00A2D2A1 /* LoginViewController.swift in Sources */,
+				3732125D2120C43200A2D2A1 /* RegisterViewController.swift in Sources */,
 				371534412120BB68006ECB03 /* ViewController.swift in Sources */,
 				371534472120BB68006ECB03 /* RPGClicker2.xcdatamodeld in Sources */,
 				3715343F2120BB68006ECB03 /* AppDelegate.swift in Sources */,
@@ -147,20 +240,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		371534422120BB68006ECB03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				371534432120BB68006ECB03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3715344A2120BB6A006ECB03 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3715344B2120BB6A006ECB03 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		373212562120C0F500A2D2A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373212572120C0F500A2D2A1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +375,7 @@
 		};
 		371534512120BB6A006ECB03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043B29BF659CF4CE917222D0 /* Pods-RPGClicker2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +393,7 @@
 		};
 		371534522120BB6A006ECB03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DEEC8CBD8521BD71DBB60B /* Pods-RPGClicker2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
